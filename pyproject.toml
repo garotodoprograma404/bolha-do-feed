@@ -1,0 +1,15 @@
+[project]
+name = "bolha-do-feed"
+version = "1.0.0"
+description = "Um algoritmo de recomendação de brinquedo pra ver uma bolha nascer de uma regra só."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Garoto do Programa" }]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "N"]
